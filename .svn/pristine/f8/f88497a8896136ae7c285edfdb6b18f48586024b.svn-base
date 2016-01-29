@@ -1,0 +1,613 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C1489E081C4612DB00B1D0FB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C1489E071C4612DB00B1D0FB /* main.m */; };
+		C1489E0B1C4612DB00B1D0FB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C1489E0A1C4612DB00B1D0FB /* AppDelegate.m */; };
+		C1489E211C4612DB00B1D0FB /* com_alsrobot_smartcarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C1489E201C4612DB00B1D0FB /* com_alsrobot_smartcarTests.m */; };
+		C1489E2C1C4612DB00B1D0FB /* com_alsrobot_smartcarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C1489E2B1C4612DB00B1D0FB /* com_alsrobot_smartcarUITests.m */; };
+		C14CA47C1C51CABD00E8B7CD /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C14CA47B1C51CABD00E8B7CD /* Launch Screen.storyboard */; };
+		C16BEBBB1C4F8224003E7D1E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C16BEBBA1C4F8224003E7D1E /* Main.storyboard */; };
+		C16BEBBD1C4F824B003E7D1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C16BEBBC1C4F824B003E7D1E /* Assets.xcassets */; };
+		C16BEBC01C4F827E003E7D1E /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C16BEBBF1C4F827E003E7D1E /* MainViewController.m */; };
+		C16BEBC41C4F8298003E7D1E /* setMaskView.m in Sources */ = {isa = PBXBuildFile; fileRef = C16BEBC21C4F8298003E7D1E /* setMaskView.m */; };
+		C16BEBC51C4F8298003E7D1E /* setMask.xib in Resources */ = {isa = PBXBuildFile; fileRef = C16BEBC31C4F8298003E7D1E /* setMask.xib */; };
+		C16BEBCD1C4F83AF003E7D1E /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C16BEBCC1C4F83AF003E7D1E /* CoreBluetooth.framework */; };
+		C16BEBCF1C4F83CF003E7D1E /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C16BEBCE1C4F83CF003E7D1E /* AVFoundation.framework */; };
+		C16BEBD11C4F83DC003E7D1E /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C16BEBD01C4F83DC003E7D1E /* CoreMotion.framework */; };
+		C16BEBDC1C4F862F003E7D1E /* XYDirectionCalculate.c in Sources */ = {isa = PBXBuildFile; fileRef = C16BEBD41C4F862F003E7D1E /* XYDirectionCalculate.c */; };
+		C16BEBDD1C4F862F003E7D1E /* XYMotionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C16BEBD71C4F862F003E7D1E /* XYMotionManager.m */; };
+		C16BEBDE1C4F862F003E7D1E /* SerialGATT.m in Sources */ = {isa = PBXBuildFile; fileRef = C16BEBD91C4F862F003E7D1E /* SerialGATT.m */; };
+		C16BEBDF1C4F862F003E7D1E /* XYAudio.m in Sources */ = {isa = PBXBuildFile; fileRef = C16BEBDB1C4F862F003E7D1E /* XYAudio.m */; };
+		C1FC652B1C4F8A1400717F32 /* an.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C1FC65271C4F8A1400717F32 /* an.mp3 */; };
+		C1FC652C1C4F8A1400717F32 /* bj.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C1FC65281C4F8A1400717F32 /* bj.mp3 */; };
+		C1FC652D1C4F8A1400717F32 /* ok.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C1FC65291C4F8A1400717F32 /* ok.mp3 */; };
+		C1FC652E1C4F8A1400717F32 /* ok1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C1FC652A1C4F8A1400717F32 /* ok1.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C1489E1D1C4612DB00B1D0FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C1489DFB1C4612DB00B1D0FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C1489E021C4612DB00B1D0FB;
+			remoteInfo = com.alsrobot.smartcar;
+		};
+		C1489E281C4612DB00B1D0FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C1489DFB1C4612DB00B1D0FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C1489E021C4612DB00B1D0FB;
+			remoteInfo = com.alsrobot.smartcar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C1489E031C4612DB00B1D0FB /* com.alsrobot.smartcar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = com.alsrobot.smartcar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1489E071C4612DB00B1D0FB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C1489E091C4612DB00B1D0FB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C1489E0A1C4612DB00B1D0FB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C1489E171C4612DB00B1D0FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1489E1C1C4612DB00B1D0FB /* com.alsrobot.smartcarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = com.alsrobot.smartcarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1489E201C4612DB00B1D0FB /* com_alsrobot_smartcarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = com_alsrobot_smartcarTests.m; sourceTree = "<group>"; };
+		C1489E221C4612DB00B1D0FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1489E271C4612DB00B1D0FB /* com.alsrobot.smartcarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = com.alsrobot.smartcarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1489E2B1C4612DB00B1D0FB /* com_alsrobot_smartcarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = com_alsrobot_smartcarUITests.m; sourceTree = "<group>"; };
+		C1489E2D1C4612DB00B1D0FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C14CA47B1C51CABD00E8B7CD /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		C16BEBBA1C4F8224003E7D1E /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		C16BEBBC1C4F824B003E7D1E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C16BEBBE1C4F827E003E7D1E /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		C16BEBBF1C4F827E003E7D1E /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		C16BEBC11C4F8298003E7D1E /* setMaskView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = setMaskView.h; sourceTree = "<group>"; };
+		C16BEBC21C4F8298003E7D1E /* setMaskView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = setMaskView.m; sourceTree = "<group>"; };
+		C16BEBC31C4F8298003E7D1E /* setMask.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = setMask.xib; sourceTree = "<group>"; };
+		C16BEBCC1C4F83AF003E7D1E /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		C16BEBCE1C4F83CF003E7D1E /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		C16BEBD01C4F83DC003E7D1E /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		C16BEBD21C4F8577003E7D1E /* smartcar.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = smartcar.pch; sourceTree = "<group>"; };
+		C16BEBD41C4F862F003E7D1E /* XYDirectionCalculate.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = XYDirectionCalculate.c; sourceTree = "<group>"; };
+		C16BEBD51C4F862F003E7D1E /* XYDirectionCalculate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYDirectionCalculate.h; sourceTree = "<group>"; };
+		C16BEBD61C4F862F003E7D1E /* XYMotionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYMotionManager.h; sourceTree = "<group>"; };
+		C16BEBD71C4F862F003E7D1E /* XYMotionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYMotionManager.m; sourceTree = "<group>"; };
+		C16BEBD81C4F862F003E7D1E /* SerialGATT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SerialGATT.h; sourceTree = "<group>"; };
+		C16BEBD91C4F862F003E7D1E /* SerialGATT.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SerialGATT.m; sourceTree = "<group>"; };
+		C16BEBDA1C4F862F003E7D1E /* XYAudio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYAudio.h; sourceTree = "<group>"; };
+		C16BEBDB1C4F862F003E7D1E /* XYAudio.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYAudio.m; sourceTree = "<group>"; };
+		C1FC65271C4F8A1400717F32 /* an.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = an.mp3; sourceTree = "<group>"; };
+		C1FC65281C4F8A1400717F32 /* bj.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bj.mp3; sourceTree = "<group>"; };
+		C1FC65291C4F8A1400717F32 /* ok.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ok.mp3; sourceTree = "<group>"; };
+		C1FC652A1C4F8A1400717F32 /* ok1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ok1.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C1489E001C4612DB00B1D0FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C16BEBD11C4F83DC003E7D1E /* CoreMotion.framework in Frameworks */,
+				C16BEBCF1C4F83CF003E7D1E /* AVFoundation.framework in Frameworks */,
+				C16BEBCD1C4F83AF003E7D1E /* CoreBluetooth.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1489E191C4612DB00B1D0FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1489E241C4612DB00B1D0FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C1489DFA1C4612DB00B1D0FB = {
+			isa = PBXGroup;
+			children = (
+				C1489E051C4612DB00B1D0FB /* com.alsrobot.smartcar */,
+				C1489E1F1C4612DB00B1D0FB /* com.alsrobot.smartcarTests */,
+				C1489E2A1C4612DB00B1D0FB /* com.alsrobot.smartcarUITests */,
+				C1489E041C4612DB00B1D0FB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C1489E041C4612DB00B1D0FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C1489E031C4612DB00B1D0FB /* com.alsrobot.smartcar.app */,
+				C1489E1C1C4612DB00B1D0FB /* com.alsrobot.smartcarTests.xctest */,
+				C1489E271C4612DB00B1D0FB /* com.alsrobot.smartcarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C1489E051C4612DB00B1D0FB /* com.alsrobot.smartcar */ = {
+			isa = PBXGroup;
+			children = (
+				C16BEBCB1C4F8397003E7D1E /* framework */,
+				C16BEBD31C4F85F9003E7D1E /* myLib */,
+				C16BEBB91C4F81F4003E7D1E /* minaView */,
+				C16BEBB71C4F8193003E7D1E /* MainView */,
+				C16BEBB81C4F81A5003E7D1E /* Others */,
+				C1489E061C4612DB00B1D0FB /* Supporting Files */,
+			);
+			path = com.alsrobot.smartcar;
+			sourceTree = "<group>";
+		};
+		C1489E061C4612DB00B1D0FB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C16BEBBC1C4F824B003E7D1E /* Assets.xcassets */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C1489E1F1C4612DB00B1D0FB /* com.alsrobot.smartcarTests */ = {
+			isa = PBXGroup;
+			children = (
+				C1489E201C4612DB00B1D0FB /* com_alsrobot_smartcarTests.m */,
+				C1489E221C4612DB00B1D0FB /* Info.plist */,
+			);
+			path = com.alsrobot.smartcarTests;
+			sourceTree = "<group>";
+		};
+		C1489E2A1C4612DB00B1D0FB /* com.alsrobot.smartcarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C1489E2B1C4612DB00B1D0FB /* com_alsrobot_smartcarUITests.m */,
+				C1489E2D1C4612DB00B1D0FB /* Info.plist */,
+			);
+			path = com.alsrobot.smartcarUITests;
+			sourceTree = "<group>";
+		};
+		C16BEBB71C4F8193003E7D1E /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				C16BEBBE1C4F827E003E7D1E /* MainViewController.h */,
+				C16BEBBF1C4F827E003E7D1E /* MainViewController.m */,
+				C16BEBBA1C4F8224003E7D1E /* Main.storyboard */,
+			);
+			name = MainView;
+			sourceTree = "<group>";
+		};
+		C16BEBB81C4F81A5003E7D1E /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				C1FC65271C4F8A1400717F32 /* an.mp3 */,
+				C1FC65281C4F8A1400717F32 /* bj.mp3 */,
+				C1FC65291C4F8A1400717F32 /* ok.mp3 */,
+				C1FC652A1C4F8A1400717F32 /* ok1.mp3 */,
+				C16BEBD21C4F8577003E7D1E /* smartcar.pch */,
+				C1489E171C4612DB00B1D0FB /* Info.plist */,
+				C1489E071C4612DB00B1D0FB /* main.m */,
+				C1489E091C4612DB00B1D0FB /* AppDelegate.h */,
+				C1489E0A1C4612DB00B1D0FB /* AppDelegate.m */,
+			);
+			name = Others;
+			sourceTree = "<group>";
+		};
+		C16BEBB91C4F81F4003E7D1E /* minaView */ = {
+			isa = PBXGroup;
+			children = (
+				C16BEBC11C4F8298003E7D1E /* setMaskView.h */,
+				C16BEBC21C4F8298003E7D1E /* setMaskView.m */,
+				C16BEBC31C4F8298003E7D1E /* setMask.xib */,
+				C14CA47B1C51CABD00E8B7CD /* Launch Screen.storyboard */,
+			);
+			name = minaView;
+			sourceTree = "<group>";
+		};
+		C16BEBCB1C4F8397003E7D1E /* framework */ = {
+			isa = PBXGroup;
+			children = (
+				C16BEBD01C4F83DC003E7D1E /* CoreMotion.framework */,
+				C16BEBCE1C4F83CF003E7D1E /* AVFoundation.framework */,
+				C16BEBCC1C4F83AF003E7D1E /* CoreBluetooth.framework */,
+			);
+			name = framework;
+			sourceTree = "<group>";
+		};
+		C16BEBD31C4F85F9003E7D1E /* myLib */ = {
+			isa = PBXGroup;
+			children = (
+				C16BEBD41C4F862F003E7D1E /* XYDirectionCalculate.c */,
+				C16BEBD51C4F862F003E7D1E /* XYDirectionCalculate.h */,
+				C16BEBD61C4F862F003E7D1E /* XYMotionManager.h */,
+				C16BEBD71C4F862F003E7D1E /* XYMotionManager.m */,
+				C16BEBD81C4F862F003E7D1E /* SerialGATT.h */,
+				C16BEBD91C4F862F003E7D1E /* SerialGATT.m */,
+				C16BEBDA1C4F862F003E7D1E /* XYAudio.h */,
+				C16BEBDB1C4F862F003E7D1E /* XYAudio.m */,
+			);
+			name = myLib;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C1489E021C4612DB00B1D0FB /* com.alsrobot.smartcar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1489E301C4612DB00B1D0FB /* Build configuration list for PBXNativeTarget "com.alsrobot.smartcar" */;
+			buildPhases = (
+				C1489DFF1C4612DB00B1D0FB /* Sources */,
+				C1489E001C4612DB00B1D0FB /* Frameworks */,
+				C1489E011C4612DB00B1D0FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = com.alsrobot.smartcar;
+			productName = com.alsrobot.smartcar;
+			productReference = C1489E031C4612DB00B1D0FB /* com.alsrobot.smartcar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C1489E1B1C4612DB00B1D0FB /* com.alsrobot.smartcarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1489E331C4612DB00B1D0FB /* Build configuration list for PBXNativeTarget "com.alsrobot.smartcarTests" */;
+			buildPhases = (
+				C1489E181C4612DB00B1D0FB /* Sources */,
+				C1489E191C4612DB00B1D0FB /* Frameworks */,
+				C1489E1A1C4612DB00B1D0FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C1489E1E1C4612DB00B1D0FB /* PBXTargetDependency */,
+			);
+			name = com.alsrobot.smartcarTests;
+			productName = com.alsrobot.smartcarTests;
+			productReference = C1489E1C1C4612DB00B1D0FB /* com.alsrobot.smartcarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C1489E261C4612DB00B1D0FB /* com.alsrobot.smartcarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1489E361C4612DB00B1D0FB /* Build configuration list for PBXNativeTarget "com.alsrobot.smartcarUITests" */;
+			buildPhases = (
+				C1489E231C4612DB00B1D0FB /* Sources */,
+				C1489E241C4612DB00B1D0FB /* Frameworks */,
+				C1489E251C4612DB00B1D0FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C1489E291C4612DB00B1D0FB /* PBXTargetDependency */,
+			);
+			name = com.alsrobot.smartcarUITests;
+			productName = com.alsrobot.smartcarUITests;
+			productReference = C1489E271C4612DB00B1D0FB /* com.alsrobot.smartcarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C1489DFB1C4612DB00B1D0FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = RainPoll;
+				TargetAttributes = {
+					C1489E021C4612DB00B1D0FB = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					C1489E1B1C4612DB00B1D0FB = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = C1489E021C4612DB00B1D0FB;
+					};
+					C1489E261C4612DB00B1D0FB = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = C1489E021C4612DB00B1D0FB;
+					};
+				};
+			};
+			buildConfigurationList = C1489DFE1C4612DB00B1D0FB /* Build configuration list for PBXProject "com.alsrobot.smartcar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C1489DFA1C4612DB00B1D0FB;
+			productRefGroup = C1489E041C4612DB00B1D0FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C1489E021C4612DB00B1D0FB /* com.alsrobot.smartcar */,
+				C1489E1B1C4612DB00B1D0FB /* com.alsrobot.smartcarTests */,
+				C1489E261C4612DB00B1D0FB /* com.alsrobot.smartcarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C1489E011C4612DB00B1D0FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1FC652E1C4F8A1400717F32 /* ok1.mp3 in Resources */,
+				C1FC652B1C4F8A1400717F32 /* an.mp3 in Resources */,
+				C14CA47C1C51CABD00E8B7CD /* Launch Screen.storyboard in Resources */,
+				C16BEBC51C4F8298003E7D1E /* setMask.xib in Resources */,
+				C1FC652C1C4F8A1400717F32 /* bj.mp3 in Resources */,
+				C16BEBBB1C4F8224003E7D1E /* Main.storyboard in Resources */,
+				C1FC652D1C4F8A1400717F32 /* ok.mp3 in Resources */,
+				C16BEBBD1C4F824B003E7D1E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1489E1A1C4612DB00B1D0FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1489E251C4612DB00B1D0FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C1489DFF1C4612DB00B1D0FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1489E0B1C4612DB00B1D0FB /* AppDelegate.m in Sources */,
+				C16BEBC01C4F827E003E7D1E /* MainViewController.m in Sources */,
+				C1489E081C4612DB00B1D0FB /* main.m in Sources */,
+				C16BEBC41C4F8298003E7D1E /* setMaskView.m in Sources */,
+				C16BEBDD1C4F862F003E7D1E /* XYMotionManager.m in Sources */,
+				C16BEBDC1C4F862F003E7D1E /* XYDirectionCalculate.c in Sources */,
+				C16BEBDF1C4F862F003E7D1E /* XYAudio.m in Sources */,
+				C16BEBDE1C4F862F003E7D1E /* SerialGATT.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1489E181C4612DB00B1D0FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1489E211C4612DB00B1D0FB /* com_alsrobot_smartcarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1489E231C4612DB00B1D0FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1489E2C1C4612DB00B1D0FB /* com_alsrobot_smartcarUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C1489E1E1C4612DB00B1D0FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C1489E021C4612DB00B1D0FB /* com.alsrobot.smartcar */;
+			targetProxy = C1489E1D1C4612DB00B1D0FB /* PBXContainerItemProxy */;
+		};
+		C1489E291C4612DB00B1D0FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C1489E021C4612DB00B1D0FB /* com.alsrobot.smartcar */;
+			targetProxy = C1489E281C4612DB00B1D0FB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C1489E2E1C4612DB00B1D0FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C1489E2F1C4612DB00B1D0FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C1489E311C4612DB00B1D0FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/com.alsrobot.smartcar/smartcar.pch";
+				INFOPLIST_FILE = com.alsrobot.smartcar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alsrobort.smartcar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		C1489E321C4612DB00B1D0FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/com.alsrobot.smartcar/smartcar.pch";
+				INFOPLIST_FILE = com.alsrobot.smartcar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alsrobort.smartcar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		C1489E341C4612DB00B1D0FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = com.alsrobot.smartcarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alsrobort.rainPoll.com-alsrobot-smartcarTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/com.alsrobot.smartcar.app/com.alsrobot.smartcar";
+			};
+			name = Debug;
+		};
+		C1489E351C4612DB00B1D0FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = com.alsrobot.smartcarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alsrobort.rainPoll.com-alsrobot-smartcarTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/com.alsrobot.smartcar.app/com.alsrobot.smartcar";
+			};
+			name = Release;
+		};
+		C1489E371C4612DB00B1D0FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = com.alsrobot.smartcarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alsrobort.rainPoll.com-alsrobot-smartcarUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = com.alsrobot.smartcar;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		C1489E381C4612DB00B1D0FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = com.alsrobot.smartcarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alsrobort.rainPoll.com-alsrobot-smartcarUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = com.alsrobot.smartcar;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C1489DFE1C4612DB00B1D0FB /* Build configuration list for PBXProject "com.alsrobot.smartcar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1489E2E1C4612DB00B1D0FB /* Debug */,
+				C1489E2F1C4612DB00B1D0FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1489E301C4612DB00B1D0FB /* Build configuration list for PBXNativeTarget "com.alsrobot.smartcar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1489E311C4612DB00B1D0FB /* Debug */,
+				C1489E321C4612DB00B1D0FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1489E331C4612DB00B1D0FB /* Build configuration list for PBXNativeTarget "com.alsrobot.smartcarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1489E341C4612DB00B1D0FB /* Debug */,
+				C1489E351C4612DB00B1D0FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1489E361C4612DB00B1D0FB /* Build configuration list for PBXNativeTarget "com.alsrobot.smartcarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1489E371C4612DB00B1D0FB /* Debug */,
+				C1489E381C4612DB00B1D0FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C1489DFB1C4612DB00B1D0FB /* Project object */;
+}
